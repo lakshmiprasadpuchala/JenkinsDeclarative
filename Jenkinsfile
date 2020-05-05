@@ -6,7 +6,7 @@ pipeline {
 				println "Declarative"
 				sh 'echo Hello Lucky'
 				script{
-					def var = "yes"
+					def var = "no"
 					if( var == "yes" ){
 						echo "Hai Lucky"
 					}
